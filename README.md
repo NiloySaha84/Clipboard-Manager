@@ -13,18 +13,18 @@ A simple Python-based clipboard manager that allows you to save, load, and list 
 - Python 3.x
 - `clipboard` module
 
-##File Structure
+## File Structure
 	•	clipboard_manager.py: The main script.
 	•	clipboard.json: The storage file for saved clipboard data (automatically created if it doesn’t exist).
 
-##Error Handling
+## Error Handling
 	•	If the clipboard.json file is missing, a new one is created automatically.
 	•	Invalid keys or commands result in an appropriate error message.
 
-##Notes
+## Notes
 	•	Ensure the clipboard.json file is in the same directory as the script.
 	•	Avoid manually editing the clipboard.json file unless necessary.
 
-##License
+## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it.
